@@ -131,7 +131,7 @@ class MoretomKeyboardService : InputMethodService() {
         } else {
             // Symbols Layout
             val sym1 = listOf("@", "#", "$", "_", "&", "-", "+", "(", ")", "/")
-            val sym2 = listOf("*", """, "'", ":", ";", "!", "?", "~", "`")
+            val sym2 = listOf("*", "\"", "'", ":", ";", "!", "?", "~", "`")
             val sym3 = listOf("[", "]", "{", "}", "<", ">", "\\", "|", "=")
 
             val s1Layout = createRow()
